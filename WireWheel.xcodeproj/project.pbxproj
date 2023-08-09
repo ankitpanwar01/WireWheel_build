@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		98E42A0F2A82918E00F33A0B /* WireWheel.h in Headers */ = {isa = PBXBuildFile; fileRef = 98E42A0E2A82918E00F33A0B /* WireWheel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98E42A192A8291BE00F33A0B /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98E42A162A8291BE00F33A0B /* Dashboard.storyboard */; };
+		98E42A1A2A8291BE00F33A0B /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E42A182A8291BE00F33A0B /* DashboardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		98E42A0B2A82918E00F33A0B /* WireWheel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WireWheel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98E42A0E2A82918E00F33A0B /* WireWheel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WireWheel.h; sourceTree = "<group>"; };
+		98E42A162A8291BE00F33A0B /* Dashboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
+		98E42A182A8291BE00F33A0B /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,9 +49,27 @@
 		98E42A0D2A82918E00F33A0B /* WireWheel */ = {
 			isa = PBXGroup;
 			children = (
+				98E42A152A8291BE00F33A0B /* Storyboards */,
+				98E42A172A8291BE00F33A0B /* ViewController */,
 				98E42A0E2A82918E00F33A0B /* WireWheel.h */,
 			);
 			path = WireWheel;
+			sourceTree = "<group>";
+		};
+		98E42A152A8291BE00F33A0B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				98E42A162A8291BE00F33A0B /* Dashboard.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		98E42A172A8291BE00F33A0B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				98E42A182A8291BE00F33A0B /* DashboardViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98E42A192A8291BE00F33A0B /* Dashboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98E42A1A2A8291BE00F33A0B /* DashboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
