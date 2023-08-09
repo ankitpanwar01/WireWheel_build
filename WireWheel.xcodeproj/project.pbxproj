@@ -11,7 +11,7 @@
 		9800115C2A83945C00B4C5F4 /* DashboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9800115A2A83945C00B4C5F4 /* DashboardViewController.xib */; };
 		980011672A83B04800B4C5F4 /* Form.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 980011662A83B04800B4C5F4 /* Form.storyboard */; };
 		980011692A83B05F00B4C5F4 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980011682A83B05F00B4C5F4 /* ListViewController.swift */; };
-		9800116E2A83B48D00B4C5F4 /* WireWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9800116D2A83B48D00B4C5F4 /* WireWheel.swift */; };
+		9800116E2A83B48D00B4C5F4 /* WireWheelSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9800116D2A83B48D00B4C5F4 /* WireWheelSDK.swift */; };
 		98E42A0F2A82918E00F33A0B /* WireWheel.h in Headers */ = {isa = PBXBuildFile; fileRef = 98E42A0E2A82918E00F33A0B /* WireWheel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -20,7 +20,7 @@
 		9800115A2A83945C00B4C5F4 /* DashboardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DashboardViewController.xib; sourceTree = "<group>"; };
 		980011662A83B04800B4C5F4 /* Form.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Form.storyboard; sourceTree = "<group>"; };
 		980011682A83B05F00B4C5F4 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
-		9800116D2A83B48D00B4C5F4 /* WireWheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WireWheel.swift; sourceTree = "<group>"; };
+		9800116D2A83B48D00B4C5F4 /* WireWheelSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WireWheelSDK.swift; sourceTree = "<group>"; };
 		98E42A0B2A82918E00F33A0B /* WireWheel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WireWheel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98E42A0E2A82918E00F33A0B /* WireWheel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WireWheel.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -47,7 +47,7 @@
 		9800116C2A83B47C00B4C5F4 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				9800116D2A83B48D00B4C5F4 /* WireWheel.swift */,
+				9800116D2A83B48D00B4C5F4 /* WireWheelSDK.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -171,7 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				980011692A83B05F00B4C5F4 /* ListViewController.swift in Sources */,
-				9800116E2A83B48D00B4C5F4 /* WireWheel.swift in Sources */,
+				9800116E2A83B48D00B4C5F4 /* WireWheelSDK.swift in Sources */,
 				9800115B2A83945C00B4C5F4 /* DashboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
