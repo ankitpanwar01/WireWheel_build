@@ -12,6 +12,8 @@ import UIKit
 public struct WireWheelSDK {
 
     public static func configure(view: UIViewController) {
-        view.present(DashboardViewController(), animated: true)
+        let sb = UIStoryboard.init(name: "Form", bundle: Bundle(for: ListViewController.self))
+        let viewC = sb.instantiateViewController(withIdentifier: "ListViewController") as! ListViewController
+        view.present(viewC, animated: true)
     }
 }
